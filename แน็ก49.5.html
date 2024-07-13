@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัว</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #fa00d4, #a29bfe);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .card h1 {
+            margin-bottom: 15px;
+            color: #2d3436;
+        }
+        .card p {
+            margin: 10px 0;
+            color: #636e72;
+            font-size: 18px;
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #0984e3;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="profile-pic" src="https://scontent-bkk1-2.xx.fbcdn.net/v/t1.6435-9/60924804_100936224488092_5309267180645253120_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFqS3g9BL5xqgj-mG6q_yGwniriD_MZ1UyeKuIP8xnVTPS-eAZkm7dWnoQqANrcY3uTH1aI8HBAD1jzgXTNgBII&_nc_ohc=8twhbWJ6_BYQ7kNvgGSuSqg&_nc_ht=scontent-bkk1-2.xx&oh=00_AYDayJZNvsM7oL3L30yc5GBnJMjzUZTI40SN08igSk3_RQ&oe=66B6BFEB" alt="Profile Picture">
+        <h1>สวัสดีครับ!</h1>
+        <p>ชื่อ: แน็ก</p>
+        <p>บ้าน: หนอง</p>
+        <p>ขนาด: 49.5</p>
+        
+        <div class="social-links">
+            <a href="https://www.youtube.com/@user-hw3ue7or7l" target="_blank">ช่องทาง YouTube</a>
+        </div>
+    </div>
+</body>
+</html>
